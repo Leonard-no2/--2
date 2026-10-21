@@ -1,4 +1,0 @@
-﻿本目录为移除去除负荷输入后重新训练的RE厂模型。保留污染物去除率和进水负荷等信息。
-碳排放核算公式、历史日期划分和验证方法沿用原方案；论文中的模型和情景结果已按本目录更新。
-运行训练脚本时使用 --prepared results_rate_only/model_inputs.csv --output results_rate_only --plant RE。
-情景仍为上游COD、TN浓度降低，氨氮随TN同比例降低，光伏替代比例和处理水量增加；其余条件沿用。
