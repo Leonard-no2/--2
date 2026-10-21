@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "source_checksum_checks": 406,
+  "office_containers_checked": 98,
+  "current_documents": [
+    "documents/开题/mj开题报告.docx",
+    "documents/答辩/开题答辩_20261020.pptx",
+    "documents/综述/开题文献综述报告-cjh.doc",
+    "documents/综述/开题综述.docx",
+    "documents/补充材料/补充材料_PI-DPCH_图表版_无底色_20261017.docx",
+    "documents/补充材料/补充材料_PI-DPCH_数据明细_无底色_20261017.xlsx",
+    "documents/论文/mj1017-小论文.docx"
+  ],
+  "errors": [],
+  "validation_scope": "复制文件与来源SHA-256一致；Office容器CRC检查；最新文稿数量核对。未重新训练模型或重新排版原文稿。"
+}

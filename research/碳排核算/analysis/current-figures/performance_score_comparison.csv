@@ -1,0 +1,5 @@
+﻿scenario,level,pv_share_pct,energy_self_supply_electricity_boundary_pct,energy_self_supply_score_before_rounding,energy_self_supply_score,other_clean_energy_score,self_supply_weighted_points,solar_use_weighted_points,combined_weighted_points,total_power_score_change_points,scope
+S0,基准,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0,仅电力边界的两项评分对照，基准不含光伏及其他新增自发电；非整厂年度总分
+S1,低,5.0,5.0,60.0,60,100,5.3999999999999995,1.5,6.8999999999999995,0,仅电力边界的两项评分对照，基准不含光伏及其他新增自发电；非整厂年度总分
+S2,中,15.0,15.0,78.75,79,100,7.109999999999999,1.5,8.61,0,仅电力边界的两项评分对照，基准不含光伏及其他新增自发电；非整厂年度总分
+S3,高,25.0,25.0,86.25,86,100,7.739999999999999,1.5,9.24,0,仅电力边界的两项评分对照，基准不含光伏及其他新增自发电；非整厂年度总分

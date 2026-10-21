@@ -1,0 +1,21 @@
+江边厂2022年直接碳排计算说明
+
+计算口径：日尺度，分母统一采用 Q_actual_m3d。
+
+1. N2O方案A：EF_N2O_N = 0.0106 kg N2O-N/kg N_removed；GWP_N2O = 273。
+   TN_removed_kg_d = max(Q_actual_m3d * (TN_in - TN_out) / 1000, 0)
+   N2O_N_kg_d = TN_removed_kg_d * EF_N2O_N
+   N2O_kg_d = N2O_N_kg_d * 44 / 28
+   co2e_N2O_kg = N2O_kg_d * 273
+
+2. N2O方案B：EF_N2O_N = 0.035 kg N2O-N/kg N_removed；其余同方案A。
+
+3. CH4：EF_CH4_BOD = 0.019 kg CH4/kg BOD5；GWP_CH4 = 27.9；未考虑甲烷回收。
+   BOD5_load_kg_d = Q_actual_m3d * BOD5_in / 1000
+   CH4_kg_d = BOD5_load_kg_d * 0.019
+   co2e_CH4_kg = CH4_kg_d * 27.9
+
+4. 外加碳源氧化CO2：按乙酸钠 NaAc 完全氧化估算，n=2，M_CO2=44，M_NaAc=82。
+   CO2_external_carbon_source_kg = 碳源用量kg * (2*44/82) = 碳源用量kg * 1.0731707317
+
+注意：若“碳源用量kg”为商品溶液质量，而非纯乙酸钠质量，需要乘以有效含量/质量分数进行修正。

@@ -18,3 +18,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/1DvZCwycC5-Peg7cHpf2t_a
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+
+## 碳排核算研究资料
+
+[查看对话总结、最新论文、数据、模型与来源材料](research/碳排核算/README.md)（整理于2026-10-21）。
