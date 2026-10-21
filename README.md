@@ -22,4 +22,4 @@ View your app in AI Studio: https://ai.studio/apps/drive/1DvZCwycC5-Peg7cHpf2t_a
 
 ## 碳排核算研究资料
 
-[查看对话总结、最新论文、数据、模型与来源材料](research/碳排核算/README.md)（整理于2026-10-21）。
+研究资料已于2026-10-21迁移到独立仓库：[碳排核算](https://github.com/Leonard-no2/tan-pai-he-suan)。
